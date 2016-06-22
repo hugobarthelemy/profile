@@ -1,0 +1,137 @@
+body {
+  background: #EBEBEB;
+  font-family: 'Open-sans', sans-serif; /* la police */
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Open-sans', sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2{
+  font-size: 17px;
+}
+h3{
+  font-size: 16px;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 15px;
+}
+
+div {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #83B0FF;
+  text-decoration: none;
+}
+
+b{
+  color: white;
+  text-decoration: none;
+}
+
+b:hover{
+  color: #83B0FF;
+  text-decoration: none;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-red{
+  background-color: #ccc;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #83B0FF;
+  color: white;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card2{
+  background: #909090;
+  padding: 0px;
+  color:  white;
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card3{
+  background: #909090;
+  padding: 25px;
+  color:  white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  margin: 30px auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 40px;
+}
+.list-inline li i{
+  font-size: 40px;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+#footer-text{
+  text-align: center;
+}
+
+#img-profile{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #cccccc;
+}
+
+#img-boat{
+/*  width: 150px;*/
+  height: 150px;
+  border: 3px solid #cccccc;
+}
