@@ -2,33 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Hugo BARTHELEMY</title>
 </head>
 <body>
-  <div class="card3" id="footer-text">
-      <ul class="list-inline">
-          <li class="text-center">
-            <a href="https://fr.linkedin.com/in/hugobarthelemy">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="text-center">
-            <a href="https://www.facebook.com/hugo.barthetlemy?ref=bookmarks">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="text-center">
-            <a href="https://twitter.com/HugoBarthelemy">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-      </ul>
+  <div id="sidebar">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+    <a href="#summary"><br>Summary</a>
+    <a href="#Ara"><br>Ara</a>
+    <a href="#sailboats"><br>Sailboats</a>
+    <a href="#fish"><br>Fish</a>
+    <a href="#info"><br>Info</a>
+  </div>
+  <div id="summary">
+    <div class="box card3" id="footer-text">
+        <ul class="list-inline">
+            <li class="text-center">
+              <a href="https://fr.linkedin.com/in/hugobarthelemy">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="text-center">
+              <a href="https://www.facebook.com/hugo.barthetlemy?ref=bookmarks">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="text-center">
+              <a href="https://twitter.com/HugoBarthelemy">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+        </ul>
+    </div>
   </div>
   <div class="container">
-    <div class="card text-center">
+    <div class="box card text-center">
         <img src="images/DSC_0001.JPG" alt="Hugo BARTHELEMY" id="img-profile" class="img-circle">
         <h1>Hugo BARTHELEMY</h1>
         <h2>Skipper codeur @ Le Wagon Nantes batch #27</h2>
@@ -36,9 +45,17 @@
         <a href="http://lewagon.com" class="btn-red">See Le Wagon website</a>
     </div>
 
-    <div class="card text-center">
-      <div class="card2">
-      <p>Sailboats<b><i class="fa fa-share-alt" align="right" aria-hidden="true"></i></b></p>
+    <div class="box card padding-text">
+      <div class="box card2">
+        <p><div id="Ara">Ara vs Belem   <b><i class="fa fa-share-alt" float-align="right"></i></b></div></p>
+    </div>
+      <img src="images/12184100_1565759867010781_8636179057487712485_o.jpg" alt="" padding-top="30px" id="img-ara">
+
+    </div>
+
+    <div class="box card padding-text">
+      <div class="box card2">
+      <p><div id="sailboats">Sailboats    <b><i class="fa fa-share-alt" float-align="right"></i></b></div></p>
       </div>
 
           <table id="boats">
@@ -89,9 +106,38 @@
           </table>
     </div>
 
+<div class="box card padding-text">
+      <div class="box card2">
+      <p><div id="fish">Fish    <b><i class="fa fa-share-alt" float-align="right"></i></b></div></p>
+      </div>
+
+          <table id="boat">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/_DSF1005.jpg" alt="" id="img-fish">
+                </td>
+                <td>
+                    <h3>Coryphaena hippurus</h3>
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3>mackerel</h3>
+
+                </td>
+                <td>
+                  <img src="images/2015-12-04 21.37.10.jpg" alt="" id="img-fish" height="100px">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
   </div>
-      <div class="card3" id="footer-text">
-    <i class="fa fa-copyright" aria-hidden="true"></i> copyright Hugo BARTHELEMY 2016
+      <div class="box card3" id="footer-text">
+    <div id="info"><i class="fa fa-copyright" aria-hidden="true"></i> copyright Hugo BARTHELEMY 2016</div>
     </div>
 </body>
 </html>
